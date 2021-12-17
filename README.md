@@ -4,6 +4,8 @@
 
 • According to Lynn Enright a journalist- “It turns out that children and teenagers all over the world, including in the UK, are let down by educators who are too squeamish, too nervous, and too unsupported to properly deliver a robust sex education.”
 
+•	Sex education is considered as a taboo in many countries, it is very difficult for young girls to understand what they are going through, and guardians always avoid these converstions. 
+
 • India lacks a curriculum for sex education.
 
 • Sex education for women is trivial as it can help reduce child marriage and unplanned pregnancies by equipping young women with skills to navigate their sexualities and take control over their lives.
