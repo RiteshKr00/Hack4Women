@@ -1,0 +1,19 @@
+{
+  "langName": "Telugu",
+  "logo": "మహిళా ఎసెన్షియల్స్",
+
+  "navLinkHome": "హోమ్",
+  "navLinkSelectAge": "వయస్సును ఎంచుకోండి",
+  "navLinkPregnancy": "గర్భం",
+  "navLinkChatroom": "చాట్ రూమ్",
+  "navLinkFAQ": "తరచుగా ప్రశ్నలు",
+  "navChangeLang": "భాష మార్చు",
+
+  "selectAgeTitle": "మీ వయస్సు సమూహాన్ని",
+  "selectAgeChildhood": "బాల్యం(8-12)",
+  "selectAgeTeenAge": "టీనేజ్(13-19)",
+  "selectAgeAdult": "పెద్దలు(20+)",
+
+  "footerWith": "తో",
+  "footerBy": "టీమ్ హాక్ ఎలైట్ ద్వారా"
+}

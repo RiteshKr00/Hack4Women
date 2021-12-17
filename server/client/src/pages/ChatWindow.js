@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useLocation } from "react-router";
 
 const ChatWindow = ({ socket, username, room }) => {
   console.log(socket);

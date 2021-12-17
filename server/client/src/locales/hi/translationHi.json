@@ -1,0 +1,19 @@
+{
+  "langName": "English",
+  "logo": "महिला अनिवार्य",
+
+  "navLinkHome": "घर",
+  "navLinkSelectAge": "आयु का चयन करें",
+  "navLinkPregnancy": "गर्भावस्था",
+  "navLinkChatroom": "चैट",
+  "navLinkFAQ": "सामान्य प्रश्न",
+  "navChangeLang": "भाषा बदलो",
+
+  "selectAgeTitle": "अपना आयु समूह चुनें",
+  "selectAgeChildhood": "बचपन(8-12)",
+  "selectAgeTeenAge": "किशोर(13-19)",
+  "selectAgeAdult": "वयस्क(20+)",
+
+  "footerWith": "साथ",
+  "footerBy": "टीम हैक एलीट द्वारा"
+}

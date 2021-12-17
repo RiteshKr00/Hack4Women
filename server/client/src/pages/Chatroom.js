@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link, useHistory } from "react-router-dom";
+import React, { useState } from "react";
 import io from "socket.io-client";
 import ChatWindow from "./ChatWindow";
 const socket = io.connect("/");
@@ -30,7 +29,7 @@ const Chatroom = () => {
   return (
     <div className="w-full h-screen bg-secondary">
       {" "}
-      <div className="text-3xl text-white font-extralight ml-40 pt-8 ">
+      <div className="text-3xl font-extralight ml-40 pt-8 ">
         Chatroom{" "}
       </div>
       {!showChat ? (

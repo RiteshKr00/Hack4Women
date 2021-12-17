@@ -88,6 +88,9 @@ const steps = [
         options: [
             { value: "Home", label: "Home", trigger: "selectedService" },
             { value: "Select Age Group", label: "Select Age Group", trigger: "selectedService" },
+            { value: "Pregnancy Portal", label: "Pregnancy Portal", trigger: "selectedService" },
+            { value: "Chatroom", label: "Chatroom", trigger: "selectedService" },
+            { value: "FAQ", label: "FAQ", trigger: "selectedService" },
             { value: "goBack", label: "go back", trigger: "options" },
         ],
     },
@@ -138,6 +141,15 @@ function Chatbot() {
                 break;
             case "Select Age Group":
                 history.push("/selectage");
+                break;
+            case "Pregnancy Portal":
+                history.push("/pregnancy");
+                break;
+            case "Chatroom":
+                history.push("/selectdoctor");
+                break;
+            case "FAQ":
+                history.push("/faq");
                 break;
             default:
                 break;

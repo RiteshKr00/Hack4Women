@@ -1,0 +1,19 @@
+{
+  "langName": "Bangali",
+  "logo": "নারীর প্রয়োজনীয় জিনিস",
+
+  "navLinkHome": "বাড়ি",
+  "navLinkSelectAge": "বয়স নির্বাচন করুন",
+  "navLinkPregnancy": "গর্ভাবস্থা",
+  "navLinkChatroom": "আড্ডাখানা",
+  "navLinkFAQ": "FAQ এর",
+  "navChangeLang": "ভাষা পরিবর্তন করুন",
+
+  "selectAgeTitle": "আপনার বয়স গ্রুপ চয়ন করুন",
+  "selectAgeChildhood": "শৈশব (8-12)",
+  "selectAgeTeenAge": "কিশোর (13-19)",
+  "selectAgeAdult": "প্রাপ্তবয়স্ক (20+)",
+
+  "footerWith": "সঙ্গে",
+  "footerBy": "দল হ্যাক এলিট দ্বারা"
+}

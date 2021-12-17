@@ -1,0 +1,19 @@
+{
+  "langName": "Marathi",
+  "logo": "महिला आवश्यक गोष्टी",
+
+  "navLinkHome": "मुख्यपृष्ठ",
+  "navLinkSelectAge": "वय निवडा",
+  "navLinkPregnancy": "गर्भधारणा",
+  "navLinkChatroom": "संवाद कक्ष",
+  "navLinkFAQ": "वारंवार प्रश्न",
+  "navChangeLang": "भाषा बदला",
+
+  "selectAgeTitle": "तुमचा वयोगट निवडा",
+  "selectAgeChildhood": "बालपण(८-१२)",
+  "selectAgeTeenAge": "किशोर(१३-१९)",
+  "selectAgeAdult": "प्रौढ(२०+)",
+
+  "footerWith": "सह",
+  "footerBy": "टीम हॅक एलिट द्वारे"
+}

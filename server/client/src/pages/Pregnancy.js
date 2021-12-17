@@ -1,37 +1,32 @@
+import PregnencyImg from "../assets/PregnancyImg.png"
+
 export default function Pregnency() {
     return (
-        <div className="pt-4 bg-secondary">
-            <div className="grid w-full py-10 place-items-center">
-                <h1 className="pb-2 text-5xl font-bold lg:text-6xl">
-                    Pregnency Education
-                </h1>
-                <div className="mt-4 inline-flex h-1 bg-primary rounded-full w-96"></div>
+        <div className="pt-4 bg-secondary md:grid md:grid-cols-3">
+            <div className="grid place-items-center text-center py-32">
+                <h1 className="text-6xl">Prenatal Education</h1>
+                <h2 className="text-5xl font-lowercase">Perantal Education And Outreach</h2>
             </div>
+            <div className="grid place-items-center text-center py-32">
+                <a href="https://health.gov/myhealthfinder/topics/pregnancy/nutrition-and-physical-activity/eat-healthy-during-pregnancy-quick-tips#:~:text=Eat%20a%20variety%20of%20vegetables,bread%2C%20and%20some%20snack%20foods." target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Healthy Eating</div></a>
 
-            <div className="mx-12">
-                <div className="py-6">
-                    <div className="text-4xl">PRENATAL EDUCATION AND OUTREACH</div>
-                    <p className="text-xl">Prenatal education is an important component of supporting healthy pregnancies. Prenatal education promotes the maintenance of healthy lifestyles during pregnancy, helping expectant mothers manage stress, support a healthy diet, avoid harmful chemicals and situations, recognize warning signs and symptoms that mean something may be wrong with their pregnancy, and prepare for labor and delivery.</p>
-                </div>
+                <a href="https://timesofindia.indiatimes.com/life-style/parenting/mental-fitness-is-as-important-as-physical-fitness-for-new-moms/articleshow/71149003.cms" target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Physical & mental fitness</div></a>
 
-                <div className="py-6">
-                    <p className="text-xl">The March of Dimes partners with multiple stakeholders including local and state health departments, community based organizations and perinatal collaboratives to design, disseminate and support widespread awareness and education campaigns to ensure the greatest reach. To educate women with the latest prenatal information, the March of Dimes uses a wide variety of award-winning educational materials, web content, videos and social media outreach strategies. Our local community outreach includes the use of culturally and linguistically appropriate March of Dimes materials in WIC sites (food security support for Women, Infants and Children), Healthy Start programs, places of worship, and in beauty salons.</p>
-                </div>
+                <a href="https://www.healthline.com/health/pregnancy/bodily-changes-during" target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Changes in pregnancy</div></a>
 
-                <div className="py-6">
-                    <div className="text-4xl">Becoming a Mom/Comenzando bien</div>
-                    <p className="text-xl">Becoming a mom/Comenzando bien is the March of Dimes comprehensive prenatal curriculum designed for use with pregnant women in a supportive group setting. Nine sessions, in either English or Spanish, present information on prenatal care, nutrition, stress, things to avoid during pregnancy, labor and birth, postpartum care and newborn care. The curriculum includes background information for facilitators, participant handouts, step-by-step lesson plans and appendices with suggestions for adapting the curriculum for use with specific cultural groups.</p>
+                <a href="https://www.parents.com/baby/breastfeeding/basics/breastfeeding-basics/" target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Breastfeeding basics</div></a>
 
-                    <p className="text-xl">The Texas Chapter maintains an active network of Becoming a mom/Comenzando bien prenatal education programs around the state. With 74 participating sites, the chapter conducts quarterly networking calls and provides training and technical assistance to ensure group facilitators have the most up-to-date information and resources to meet the educational needs of pregnant women.</p>
-                </div>
+                <a href="https://utswmed.org/medblog/prepare-body-labor-delivery/" target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Physical preparation for childbirth</div></a>
 
-                <div className="py-6">
-                    <div className="text-4xl">The Coming of the Blessing</div>
-                    <p className="text-xl">American Indian and Alaska Native mothers have the highest rate (23.8 percent) of inadequate prenatal care of all racial and ethnic groups in the United States. To address this issue, the March of Dimes formed the American Indian/Alaska Native Women’s Committee in 2006, including representation from 10 different tribes. The committee studied existing materials and programs for pregnant Native women. They identified a need for health education resources that addressed cultural and spiritual beliefs shared by many Native communities. The women believed that they could help improve the health of mothers and babies by emphasizing strong family and community bonds and the deep and profound respect for nature, life, ancestors, women and children.</p>
+                <a href="https://www.plannedparenthood.org/learn/pregnancy/prenatal-care" target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Parental care</div></a>
 
-                    <p className="text-xl">The result was The Coming of the Blessing, a comprehensive health education booklet that encourages American Indian/Alaska Native women to include their traditional beliefs and lessons from their ancestors into their prenatal practices. The program has now expanded to provide culturally relevant prenatal education teachings to Native women across the United States. In 2014, the Alaska Native/American Indian Women’s Committee came together with two new members from New York and Oklahoma. The committee focused on development of a brochure addressing neonatal abstinence syndrome among Native women.</p>
-                </div>
+                <a href="https://www.womenshealth.gov/pregnancy/childbirth-and-beyond/newborn-care-and-safety" target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Newborn care and safety</div></a>
+
+                <a href="https://en.wikipedia.org/wiki/Postpartum_physiological_changes#:~:text=After%20birth%2C%20the%20fundus%20contracts,delivered%20a%20child%20or%20children." target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Postpartum Changes</div></a>
+
+                <a href="https://www.karger.com/Article/Abstract/514884#:~:text=Pregnant%20and%20lactating%20women%20are,preterm%20birth%2C%20and%20thyroid%20function." target="_blank" rel="noreferrer"><div class="inline-flex bg-purple-600 text-white rounded-full text-2xl h-8 px-3 justify-center items-center text-">Environmental exposure</div></a>
             </div>
+            <img src={PregnencyImg} alt="img" className="w-full" />
         </div>
     )
 }

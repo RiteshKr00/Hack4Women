@@ -4,7 +4,6 @@ import Doc2 from "../assets/doc2.png"
 import Doc3 from "../assets/doc3.png"
 import Doc4 from "../assets/doc4.jpg"
 import Doc5 from "../assets/doc5.jpg"
-import ChildhoodImg from "../assets/childhood.svg"
 
 export default function SelectDoctor() {
     return (

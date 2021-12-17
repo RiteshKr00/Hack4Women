@@ -1,0 +1,19 @@
+{
+  "langName": "English",
+  "logo": "Women Essentials",
+
+  "navLinkHome": "Home",
+  "navLinkSelectAge": "Select Age",
+  "navLinkPregnancy": "Pregnancy",
+  "navLinkChatroom": "Chatroom",
+  "navLinkFAQ": "FAQ's",
+  "navChangeLang": "Change Language",
+
+  "selectAgeTitle": "Select your age group",
+  "selectAgeChildhood": "Childhood(8-12)",
+  "selectAgeTeenAge": "Teenage(13-19)",
+  "selectAgeAdult": "Adult(20 +)",
+
+  "footerWith": "with",
+  "footerBy": "by team Hack Elite"
+}
