@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import PregnencyImg from "../assets/PregnancyImg.png"
 
 export default function Pregnency() {
@@ -31,11 +31,12 @@ export default function Pregnency() {
                 <img src={PregnencyImg} alt="img" className="w-full" />
 
             </div>
-            <div className="w-full grid place-items-center p-8">
+            
+            {/* <div className="w-full grid place-items-center p-8">
                 <Link to="/quiz" className="w-56">
                     <button className="p-2 px-8 mt-4 w-56w-1/3 text-base font-semibold tracking-wider border rounded-full shadow-sm md:w-full bg-red-50 bg-blue-500 hover:shadow-lg text-white">Take Quiz</button>
                 </Link>
-            </div>
+            </div> */}
         </div>
     )
 }

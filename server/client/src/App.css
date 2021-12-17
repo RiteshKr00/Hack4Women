@@ -149,7 +149,7 @@
     font-size: 1.75rem;
   }
 
-  .quiz_body {
+  /* .quiz_body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,8 +173,6 @@
     font-size: 24px;
     align-items: center;
   }
-  
-  /* QUESTION/TIMER/LEFT SECTION */
   .question-section {
     width: 100%;
     position: relative;
@@ -202,7 +200,6 @@
     text-align: center;
   }
   
-  /* ANSWERS/RIGHT SECTION */
   .answer-section {
     width: 100%;
     display: flex;
@@ -243,4 +240,4 @@
   button svg {
     margin-right: 5px;
   }
-  
+   */
