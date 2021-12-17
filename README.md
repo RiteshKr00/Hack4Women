@@ -38,11 +38,11 @@ A safe place to get reliable information and guidance for women sex education in
 
 ## 🧠 Challenges we ran into
 
-Completing the project in a given time frame was a challenging task.
+- Completing the project in a given time frame was a challenging task.
 
 ## 🏅 Accomplishments that we're proud of
 
-Completing the project in the given time frame.
+- Completing the project in the given time frame.
 
 ## 📖 What we learned
 
