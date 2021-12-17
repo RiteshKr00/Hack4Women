@@ -1,3 +1,4 @@
+const colors = require("tailwindcss/colors");
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
@@ -7,6 +8,7 @@ module.exports = {
         primary: "#1B2431",
         secondary: "#016795",
         tertiary: "#1E488F",
+        green: colors.emerald,
       },
       zIndex: {
         "-1": "-1",

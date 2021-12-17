@@ -7,6 +7,8 @@ import Chatroom from "./pages/Chatroom";
 import FAQ from "./pages/FAQ";
 import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
+import "./App.css";
+
 
 function App() {
 
