@@ -15,7 +15,7 @@ export default function SelectAge() {
 
             <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 pt-8 pb-14">
 
-                <Link to='/child'>
+                <Link to='/childhood'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
@@ -25,7 +25,7 @@ export default function SelectAge() {
                     </div>
                 </Link>
 
-                <Link to='/teenag'>
+                <Link to='/teenage'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">

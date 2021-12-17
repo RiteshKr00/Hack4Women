@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom"
+import Doc1 from "../assets/doc1.jpg"
+import Doc2 from "../assets/doc2.png"
+import Doc3 from "../assets/doc3.png"
+import Doc4 from "../assets/doc4.jpg"
+import Doc5 from "../assets/doc5.jpg"
 import ChildhoodImg from "../assets/childhood.svg"
 
 export default function SelectDoctor() {
@@ -17,8 +22,52 @@ export default function SelectDoctor() {
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
-                                <img width="350" height="250" src={ChildhoodImg} alt="" /></div>
-                            <div className="grid -mt-9 place-content-center mx-1 text-2xl mb-4 font-semibold">De. John Doe
+                                <img width="350" height="250" src={Doc1} alt="" /></div>
+                            <div className="grid -mt-9 place-content-center mx-1 text-2xl mb-4 font-semibold">Dr. John Doe
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to='/chatroom'>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
+                                <img width="350" height="250" src={Doc2} alt="" /></div>
+                            <div className="grid -mt-9 place-content-center mx-1 text-2xl mb-4 font-semibold">Dr. Olive Yew
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to='/chatroom'>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
+                                <img width="350" height="250" src={Doc3} alt="" /></div>
+                            <div className="grid -mt-9 place-content-center mx-1 text-2xl mb-4 font-semibold">Dr. Aida Bugg
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to='/chatroom'>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
+                                <img width="350" height="250" src={Doc4} alt="" /></div>
+                            <div className="grid -mt-9 place-content-center mx-1 text-2xl mb-4 font-semibold">Dr. Teri Dactyl
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to='/chatroom'>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
+                                <img width="350" height="250" src={Doc5} alt="" /></div>
+                            <div className="grid -mt-9 place-content-center mx-1 text-2xl mb-4 font-semibold">Dr. Allie Grater
                             </div>
                         </div>
                     </div>

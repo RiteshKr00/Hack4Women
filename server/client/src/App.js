@@ -1,7 +1,11 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Scroll from "./scroll";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import SelectAge from "./pages/SelectAge";
+import Childhood from "./pages/Childhood";
+import Teenage from "./pages/Teenage";
+import Adult from "./pages/Adult";
 import Pregnancy from "./pages/Pregnancy";
 import SelectDoctor from "./pages/SelectDoctor";
 import Chatroom from "./pages/Chatroom";
@@ -15,10 +19,14 @@ function App() {
   return (
     <div className="font-poppins">
       <Router>
+        <Scroll />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/selectage" exact component={SelectAge} />
+          <Route path="/childhood" exact component={Childhood} />
+          <Route path="/teenage" exact component={Teenage} />
+          <Route path="/adult" exact component={Adult} />
           <Route path="/pregnancy" exact component={Pregnancy} />
           <Route path="/selectdoctor" exact component={SelectDoctor} />
           <Route path="/chatroom" exact component={Chatroom} />
