@@ -7,6 +7,7 @@ import Childhood from "./pages/Childhood";
 import Teenage from "./pages/Teenage";
 import Adult from "./pages/Adult";
 import Pregnancy from "./pages/Pregnancy";
+import Quiz from "./pages/Quiz";
 import SelectDoctor from "./pages/SelectDoctor";
 import Chatroom from "./pages/Chatroom";
 import FAQ from "./pages/FAQ";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/teenage" exact component={Teenage} />
           <Route path="/adult" exact component={Adult} />
           <Route path="/pregnancy" exact component={Pregnancy} />
+          <Route path="/quiz" exact component={Quiz} />
           <Route path="/selectdoctor" exact component={SelectDoctor} />
           <Route path="/chatroom" exact component={Chatroom} />
           <Route path="/faq" exact component={FAQ} />
