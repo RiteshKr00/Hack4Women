@@ -2,6 +2,8 @@
 
 ## 🏷 Tagline
 
+A safe place to get reliable information and guidance for women sex education including prenatal education.
+
 ## 💡 Inspiration
 
 According to Lynn Enright a journalist- "It turns out that children and teenagers all over the world, including in the UK, are let down by educators who are too squeamish, too nervous, and too unsupported to properly deliver a robust sex education."
