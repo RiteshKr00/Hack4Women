@@ -77,7 +77,7 @@ export default function Navbar() {
               <span className="lg:inline-flex px-3 my-4 py-3 rounded text-gray-100 items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer">Pregnancy</span>
             </Link>
 
-            <Link to="/chatroom" passHref>
+            <Link to="/selectdoctor" passHref>
               <span className="lg:inline-flex px-3 my-4 py-3 rounded text-gray-100 items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer">Chatroom</span>
             </Link>
 

@@ -7,7 +7,7 @@ export default function SelectAge() {
     return (
         <div className="pt-4 bg-secondary">
             <div className="grid w-full py-10 place-items-center">
-                <h1 className="pb-2 text-5xl font-bold lg:text-6xl text-white">
+                <h1 className="pb-2 text-5xl font-bold lg:text-6xl">
                     Select your age group
                 </h1>
                 <div className="mt-4 inline-flex h-1 bg-primary rounded-full w-96"></div>
@@ -15,7 +15,7 @@ export default function SelectAge() {
 
             <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 pt-8 pb-14">
 
-                <Link href='/childhood' passHref>
+                <Link to='/child'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
@@ -25,7 +25,7 @@ export default function SelectAge() {
                     </div>
                 </Link>
 
-                <Link href='/teenage' passHref>
+                <Link to='/teenag'>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">
@@ -35,7 +35,7 @@ export default function SelectAge() {
                     </div>
                 </Link>
 
-                <Link href='/adult' passHref>
+                <Link to='/adult' >
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-12 border-4  border-primary p-4 bg-gray-200 rounded-lg">

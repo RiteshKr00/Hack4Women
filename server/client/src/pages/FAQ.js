@@ -6,7 +6,7 @@ export default function FAQ() {
         <div className="pt-4 bg-secondary pb-8">
 
             <div className="grid w-full py-10 place-items-center">
-                <h1 className="pb-2 text-5xl font-bold lg:text-6xl text-white">
+                <h1 className="pb-2 text-5xl font-bold lg:text-6xl">
                     FAQ's
                 </h1>
                 <div className="inline-flex h-1 bg-primary rounded-full w-48"></div>
