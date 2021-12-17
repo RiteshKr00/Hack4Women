@@ -74,7 +74,7 @@ const steps = [
                 value: "funFact",
                 label: "Give a random funfact",
                 trigger: "funFact",
-              },
+            },
             { value: "exit", label: "Exit", trigger: "end" },
         ],
     },
@@ -113,7 +113,7 @@ const steps = [
         component: <FunFact />,
         asMessage: true,
         trigger: "moreHelp",
-      },
+    },
     {
         id: "end",
         message: "Thank you, see you again!",
@@ -124,7 +124,7 @@ const steps = [
 function FunFact() {
     const randInt = Math.floor(Math.random() * 14);
     return <div>{funfacts[randInt]}</div>;
-  }
+}
 
 function Chatbot() {
     const [opened, setOpened] = useState(false);
@@ -138,6 +138,7 @@ function Chatbot() {
                 break;
             case "Select Age Group":
                 history.push("/selectage");
+                break;
             default:
                 break;
         }
@@ -149,31 +150,31 @@ function Chatbot() {
 
     return (
         <div className="chatbot">
-      <ThemeProvider theme={theme}>
-        <ChatBot
-          key={key}
-          steps={steps}
-          handleEnd={handleEnd}
-          opened={opened}
-          headerTitle="Emily"
-          botAvatar={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
-          avatarStyle={{ borderRadius: "100%" }}
-          floating={true}
-          floatingIcon={
-            <img
-              src={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
-              style={{ width: "70%" }}
-              alt="chatBot icon"
-            />
-          }
-          floatingStyle={{
-            backgroundColor: "#ffffff",
-            width: "60px",
-            boxShadow: "2px 2px 20px -8px #111",
-          }}
-        />
-      </ThemeProvider>
-    </div>
+            <ThemeProvider theme={theme}>
+                <ChatBot
+                    key={key}
+                    steps={steps}
+                    handleEnd={handleEnd}
+                    opened={opened}
+                    headerTitle="Emily"
+                    botAvatar={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
+                    avatarStyle={{ borderRadius: "100%" }}
+                    floating={true}
+                    floatingIcon={
+                        <img
+                            src={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
+                            style={{ width: "70%" }}
+                            alt="chatBot icon"
+                        />
+                    }
+                    floatingStyle={{
+                        backgroundColor: "#ffffff",
+                        width: "60px",
+                        boxShadow: "2px 2px 20px -8px #111",
+                    }}
+                />
+            </ThemeProvider>
+        </div>
     );
 }
 

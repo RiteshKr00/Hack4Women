@@ -9,11 +9,10 @@ import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import "./App.css";
 
-
 function App() {
 
   return (
-    <>
+    <div className="font-poppins">
       <Router>
         <Navbar />
         <Switch>
@@ -26,7 +25,7 @@ function App() {
         <Chatbot />
         <Footer />
       </Router>
-    </>
+    </div>
   );
 }
 

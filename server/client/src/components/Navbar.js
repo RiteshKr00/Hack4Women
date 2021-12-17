@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className="font-poppins">
       <nav className="flex items-center bg-primary flex-wrap px-4 lg:px-16 md:px-8">
         <Link to="/" passHref><span className="p-2 mr-4 inline-flex items-center text-4xl cursor-pointer text-white font-bold">
-          Women Essentials
+          Women Essential
         </span></Link>
         <button
           className="lg:hidden right-0 text-white absolute font-bold md:px-8 text-6xl pt-16 px-6 py-3 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -27,7 +27,7 @@ export default function Navbar() {
                   <div className="flex items-start justify-between text-white p-5 border-b border-solid border-blueGray-200 rounded-t">
                     <div className="text-3xl font-semibold cursor-pointer">
                       <Link to="/" passHref>
-                        Women Essentials
+                        Women Essential
                       </Link>
                     </div>
 
