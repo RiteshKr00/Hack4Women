@@ -17,13 +17,13 @@
 
 ## 💻 What it does
 
-•	It is a safe place for exploring women sex education.
+•	It is a safe place for exploring women's sex education.
 
 •	Gives guidance for young girls regarding bad touch, and how to protect themselves in situations like this.
 
-•	It also provides counselling for the pregnant women regarding the common health issues, healthy practices, and connects with the top doctors across the world.
+•	It also provides counseling for pregnant women regarding common health issues, healthy practices, and connects with the top doctors across the world.
 
-•	A chatroom to connect with women facing same issues, and get experienced solutions for the same.
+•	A chatroom to connect with women facing the same issues, and get experienced solutions for the same.
 
 
 ## 🔨 How we built it
