@@ -38,6 +38,8 @@ A safe place to get reliable information and guidance for women sex education in
 
 ## 🧠 Challenges we ran into
 
+- During initial Setup some Code were not working on one of teammates system and we wasted a lot of time figuring it out.
+
 - Completing the project in a given time frame was a challenging task.
 
 ## 🏅 Accomplishments that we're proud of
@@ -46,8 +48,13 @@ A safe place to get reliable information and guidance for women sex education in
 
 ## 📖 What we learned
 
-Collaboration with other developers.
+- Collaboration with other developers.
+
+- Work under pressure and in fixed time constraint
+
 
 ## 🚀 What's next for Women Essentialss
 
-- Working on finding genuine user
+- Working on finding genuine user Using Multi-Factor Authentication
+- Making App More Secure from Random Users
+- Video Call features to consult with verified health professionals and Doctors
